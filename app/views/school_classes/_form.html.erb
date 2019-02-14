@@ -1,5 +1,5 @@
 <%= form_for(@school_class) do |f| %>
-  <h1>School Class Form</h1>
+
   <% if @school_class.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@school_class.errors.count, "error") %> prohibited this school_class from being saved:</h2>
@@ -11,7 +11,7 @@
       </ul>
     </div>
   <% end %>
-
+  <h1>School Class Form</h1>
   <div class="field">
     <%= f.label :title %><br>
     <%= f.text_field :title %>
