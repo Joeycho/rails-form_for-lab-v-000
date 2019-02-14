@@ -635,3 +635,5 @@ Started GET "/school_classes/new" for 127.0.0.1 at 2019-02-14 11:22:15 +0000
 Processing by SchoolClassesController#new as HTML
   Rendered school_classes/_form.html.erb (28.9ms)
   Rendered school_classes/new.html.erb within layouts/application (35.3ms)
+Completed 200 OK in 703ms (Views: 687.3ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
